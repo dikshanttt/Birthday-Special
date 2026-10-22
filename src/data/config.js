@@ -207,7 +207,7 @@ export const siteConfig = {
         id: 15,
         src: "./images/memories/15.jpeg",
         title: "Unforgettable Days",
-        caption: "Little you, already making every moment special 🥹🎂🤍",
+        caption: "Little you, already making every moment special 🥹🎂🤍z",
         category: "recent",
         rotation: 1.4,
         tape: "lavender",
