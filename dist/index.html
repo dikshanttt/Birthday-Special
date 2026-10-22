@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Mero Diduuu! 🎂💜</title>
+  <meta name="description" content="A dreamy purple scrapbook birthday surprise made with lots of love for my favourite sister, Diduuu." />
+
+  <!-- Open Graph Meta for beautiful preview in WhatsApp, Instagram, Messenger -->
+  <meta property="og:title" content="Happy Birthday, Mero Diduuu! 🎂💜" />
+  <meta property="og:description" content="A special birthday surprise made with lots of love for my favourite sister Diduuu!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./images/memories/17.jpeg" />
+
+  <!-- Google Fonts: Playfair Display, Caveat (Cute Handwriting), Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <script type="module" crossorigin src="./assets/index-BZVFcJjr.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BROjBm5Y.css">
+</head>
+<body>
+  <!-- Ambient Floating Background Particles -->
+  <div class="floating-elements-bg" id="floatingBg" aria-hidden="true"></div>
+
+  <!-- Floating Music Toggle (optional — only works when audio file is provided) -->
+  <button class="floating-music-btn" id="btnToggleMusic" title="Play gentle birthday music" aria-label="Toggle background music">
+    🔇
+  </button>
+
+  <main>
+    <!-- =======================================================================
+         SECTION A: WELCOME / HERO SCREEN
+         ======================================================================= -->
+    <section id="welcome" class="section-wrapper" aria-labelledby="welcomeHeading">
+      <div class="content-container welcome-grid">
+        <div class="welcome-text-col">
+          <div class="special-badge">
+            <span>✨</span> Mero Pyari Diduuu • Best Sister Forever 💜
+          </div>
+
+          <h1 id="welcomeHeading" class="welcome-headline">
+            Someone very special has a birthday today… <span class="highlight-heart">♡</span>
+          </h1>
+
+          <p class="welcome-subtext">
+            (and that's you, Diduuu!) 🥹❤️
+          </p>
+
+          <div class="welcome-cta-wrap">
+            <button class="btn-primary" id="btnOpenSurprise" aria-label="Open your birthday surprise">
+              🎁 Open Your Surprise
+            </button>
+
+            <aside class="handwritten-aside">
+              A little surprise for my Diduuu<br />
+              — with lots of love ♡<br />
+              <small style="opacity: 0.85; font-size: 1.15rem;">To the sweetest, most amazing sister 🌷</small>
+            </aside>
+          </div>
+        </div>
+
+        <div class="welcome-visual-col">
+          <div class="cake-illustration-wrapper" id="heroCakeSlot">
+            <!-- Injected via SVG module -->
+          </div>
+          <div class="envelope-accent" aria-hidden="true">
+            <span class="seal">💌</span><br />
+            For Diduuu ♡
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION B: BIRTHDAY CELEBRATION (INTERACTIVE CAKE & CANDLES)
+         ======================================================================= -->
+    <section id="celebration" class="section-wrapper" aria-labelledby="celebrationTitle">
+      <div class="content-container">
+        <div class="section-header">
+          <div class="crown-badge" aria-hidden="true">👑</div>
+          <h2 id="celebrationTitle" class="section-title">Happy Birthday, Mero Diduuu! 🎂💜</h2>
+          <p class="section-subtitle">May your day be as bright and beautiful as your heart! 🌷</p>
+        </div>
+
+        <div class="celebration-grid">
+          <!-- Left: Interactive Birthday Cake -->
+          <div class="celebration-cake-col">
+            <div class="interactive-cake-stage" id="celebrationCakeSlot" role="button" tabindex="0" aria-label="Click to blow out candles on birthday cake" title="Click to blow out candles!">
+              <!-- Injected SVG Cake with interactive candles -->
+            </div>
+
+            <div class="candle-prompt" id="candlePromptText">
+              <span>🎂</span> Click the candles to blow them out & make a wish! ✨
+            </div>
+
+            <button class="btn-pill-action" id="btnCelebrationPill">
+              Keep being you 💜
+            </button>
+          </div>
+
+          <!-- Right: Scrapbook Showcase Card -->
+          <div class="celebration-showcase-col">
+            <div class="scrapbook-showcase-card">
+              <!-- Polaroid of Sister -->
+              <div class="showcase-polaroid">
+                <div class="washi-tape washi-tape-purple" aria-hidden="true"></div>
+                <div class="showcase-img-wrap">
+                  <img src="./images/memories/17.jpeg" alt="My Beautiful Diduuu" loading="lazy" />
+                </div>
+                <p class="showcase-caption">You deserve all the happiness in the world 💜</p>
+              </div>
+
+              <!-- Pinned Sticky Memo Note -->
+              <div class="pinned-sticky-note" aria-label="Special traits of Diduuu">
+                <div class="pin-icon" aria-hidden="true">📌</div>
+                <ul class="sticky-list">
+                  <li>• Kind 🌷</li>
+                  <li>• Funny 😂</li>
+                  <li>• Beautiful 🌷</li>
+                  <li>• Chosen by Heart 💜</li>
+                  <li>• My Diduuu 🌷</li>
+                </ul>
+              </div>
+
+              <!-- Tulips decoration -->
+              <div class="side-tulips" id="sideTulipsSlot" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION C: MEMORIES GALLERY (SCRAPBOOK POLAROIDS & LIGHTBOX)
+         ======================================================================= -->
+    <section id="memories" class="section-wrapper" aria-labelledby="memoriesTitle">
+      <div class="content-container">
+        <div class="section-header">
+          <h2 id="memoriesTitle" class="section-title">Little Moments of My Favourite Diduuu 💜</h2>
+          <p class="section-subtitle">From a naughty little kid to the amazing, wonderful soul you are today! 😂❤️</p>
+        </div>
+
+        <!-- Scrapbook Category Filter Buttons -->
+        <div class="gallery-filters" role="group" aria-label="Filter memories">
+          <button class="filter-btn" data-category="all" aria-pressed="false">All Memories 📸</button>
+          <button class="filter-btn" data-category="childhood" aria-pressed="false">Naughty Kid Days 🐣</button>
+          <button class="filter-btn" data-category="recent" aria-pressed="false">Growing Beautiful 🌷</button>
+          <button class="filter-btn active" data-category="bond" aria-pressed="true">Bond of Hearts 🫶🏻</button>
+        </div>
+
+        <!-- Polaroid Masonry / Responsive Grid -->
+        <div class="scrapbook-grid" id="scrapbookGrid">
+          <!-- Dynamically populated polaroid cards (28 photos) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION D: PERSONAL BIRTHDAY LETTER (REALISTIC STATIONERY)
+         ======================================================================= -->
+    <section id="letter" class="section-wrapper" aria-labelledby="letterTitle">
+      <div class="content-container">
+        <div class="section-header">
+          <h2 id="letterTitle" class="section-title">A Little Letter for You... 💌</h2>
+          <p class="section-subtitle">Straight from the bottom of my heart 🌷</p>
+        </div>
+
+        <div class="letter-layout">
+          <!-- Realistic Stationery Paper Card -->
+          <article class="parchment-letter" aria-label="Birthday letter for Diduuu">
+            <!-- Pinned Ribbon Bow on Top -->
+            <div class="letter-ribbon" id="letterRibbonSlot" aria-hidden="true"></div>
+
+            <h3 class="letter-salutation" id="letterSalutation">Happy Birthday, Mero Diduuu! 💜</h3>
+
+            <div class="letter-body" id="letterBody">
+              <!-- Paragraphs loaded from siteConfig -->
+            </div>
+
+            <div class="letter-signoff" id="letterSignoff">
+              — Hajurko sano bhai💜
+            </div>
+
+            <!-- Pinned Heart Sticker Tag -->
+            <div class="letter-sticky-heart" aria-hidden="true">
+              <span>Lopp Uhh</span>
+              <span>Diduu💜</span>
+            </div>
+          </article>
+
+          <!-- Side Polaroid with Tulips -->
+          <div class="letter-side-col">
+            <div class="letter-polaroid-side">
+              <div class="washi-tape washi-tape-lavender" aria-hidden="true"></div>
+              <div class="side-img-wrap">
+                <img src="./images/memories/11.jpeg" alt="Keep smiling always" loading="lazy" />
+              </div>
+              <p class="side-polaroid-caption">Keep smiling always! 💜</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION E: FINAL SUNSET SURPRISE
+         ======================================================================= -->
+    <section id="surprise" class="section-wrapper" aria-labelledby="surpriseTitle">
+      <div class="sunset-glow-overlay" aria-hidden="true"></div>
+
+      <div class="content-container sunset-content">
+        <div class="sunset-message-box">
+          <p class="sunset-quote">
+            Dashain ma sabai tira tika ra bheta-ghat chalirakhda pani, hajurko birthday sadhai mero lagi special cha! 💜
+          </p>
+          <p class="sunset-quote">
+            Aaja bhetna napaye pani, hajur sadhai mero mutu ko najik hunuhuncha! 🥹🫂
+          </p>
+          <p class="sunset-quote">
+            Chittai bhetera dherai ramailo garnuparcha haiii, Diduuu! 🪻
+          </p>
+
+          <h2 id="surpriseTitle" class="sunset-grand-title">
+            HAPPY BIRTHDAY, MERO DIDUUUU! 🎂💜
+          </h2>
+
+          <p class="sunset-subwish">
+            Sadhai khusi rahanu hos, Mero Pyari Diduuu! 💜
+          </p>
+        </div>
+
+        <!-- Interactive Surprise Gift Box -->
+        <button type="button" class="gift-interactive-wrap" id="giftBoxSlot" aria-label="Open your surprise birthday gift" title="Click or press Enter to open your gift!">
+          <!-- Injected SVG Gift Box -->
+        </button>
+
+        <div class="ps-playful-note">
+          P.S. Hajurko sano gift pani baki cha haiii! 🎁😂💜
+        </div>
+
+        <button class="btn-hug" id="btnSendHug" aria-label="Send one more hug to Diduuu">
+          Send You One More Hug 🫂
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       ACCESSIBLE LIGHTBOX DIALOG (Modern Web Standards: closedby="any")
+       ======================================================================= -->
+  <dialog id="lightboxModal" closedby="any" aria-label="Memory Photo Lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close dialog">✕</button>
+      <div class="lightbox-body" id="lightboxBody">
+        <!-- Rendered photo -->
+      </div>
+      <div class="lightbox-caption-area" id="lightboxCaption"></div>
+      <div class="lightbox-nav">
+        <button class="lightbox-nav-btn" id="lightboxPrevBtn" aria-label="Previous photo">← Previous</button>
+        <span class="lightbox-counter" id="lightboxCounter">1 / 31</span>
+        <button class="lightbox-nav-btn" id="lightboxNextBtn" aria-label="Next photo">Next →</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Hug Banner -->
+  <div class="toast-hug-banner" id="toastHugBanner" role="status" aria-live="polite">
+    A warm hug has been sent straight to your heart! 🫂💜
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-content">
+      <p>Made with all my heart for my Diduuu 💜 | Always & Forever</p>
+      <button class="btn-back-to-top" id="btnBackToTop" aria-label="Back to top">
+        ↑ Back to Top 🌷
+      </button>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript App Entry -->
+</body>
+</html>
