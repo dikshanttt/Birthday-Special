@@ -1,6 +1,6 @@
 # 🎂 Birthday Surprise Website for Diduuu 💜
 
-A dreamy purple scrapbook birthday surprise website crafted with all my heart for my beloved unbiological sister, **Diduuu**, styled in her favourite shades of purple.
+A cheerful, dreamy purple scrapbook birthday surprise website made to celebrate my sister, **Diduuu**, and our special sibling bond, styled in her favourite shades of purple.
 
 ---
 
