@@ -22,7 +22,7 @@ export const siteConfig = {
 
   // Section A: Welcome Screen
   welcome: {
-    badge: "✨ Mero Pyari Diduuu • Best Sister Forever 💜",
+    badge: "✨ Mero Pyari Diduuu • Best Sister 💜",
     greeting: "Someone very special has a birthday today… ♡",
     subGreeting: "(and that's you, Diduuu!) 🥹💜",
     ctaButton: "🎁 Open Your Surprise",
@@ -60,7 +60,7 @@ export const siteConfig = {
       { id: "all", label: "All Memories 📸" },
       { id: "childhood", label: "Naughty Kid Days 🐣" },
       { id: "recent", label: "Growing Beautiful 🌷" },
-      { id: "bond", label: "Sibling Moments 🫶🏻" }
+      { id: "bond", label: "Beautiful Moments 🫶🏻" }
     ],
     items: [
       {
@@ -337,7 +337,7 @@ export const siteConfig = {
         id: 28,
         src: "./images/memories/29.jpg",
         title: "Always Appreciated",
-        caption: "Hajurko ramailo bani le sabailai khusi banauncha 🫶🏻🌷",
+        caption: "Hajurko ramailo bani le sabailai khusi banaunxa 🫶🏻🌷",
         category: "bond",
         rotation: -1.8,
         tape: "purple",
@@ -367,7 +367,7 @@ export const siteConfig = {
         id: 31,
         src: "./images/memories/32.jpeg",
         title: "Best Sister Forever",
-        caption: "Mero sweetest Diduuu sadhai mero mutu mai hunuhuncha 🫂💜",
+        caption: "Mero sweetest Diduuu sadhai mero mutu mai hunuhunxa 🫂💜",
         category: "bond",
         rotation: 1.6,
         tape: "plum",
@@ -382,7 +382,7 @@ export const siteConfig = {
     salutation: "Happy Birthday, Mero Diduuu! 💜",
     paragraphs: [
       "Kaash yrrr aaja hajur sanga bhayera yo special day celebrate garna paauthe! 🥹💜 Dashain vayera bhetauna napaye pani, hajurko birthday ramailo hos haiii!",
-      "Hajur ekdam kind, funny ra talented hunuhuncha! Hajur jasto ramro didi paunu mero lagi khusi ko kura ho. 🫶🏻🪻💜",
+      "Hajur ekdam kind, funny ra talented hunuhunxa! Hajur jasto ramro didi paunu mero lagi khusi ko kura ho. 🫶🏻🪻💜",
       "Hajurko life sadhai khusi, safalta ra ramra moments le bharipurna hos. Hajurka sabai sapana pura hun, ani hajur sadhai yestai hasirakhnu haiii! 🌷💫",
       "Chittai bhetera sangai ramailo garnu parxa hai! Teti bela samma ko lagi, yo sano birthday card ra dherai shubhakamana! 🎂💜",
       "Janmadinko dherai dherai shubhakamana, Diduuu! 🎂🎉"
@@ -402,7 +402,7 @@ export const siteConfig = {
     quote3: "Chittai bhetera dherai ramailo garnuparxa haiii, Diduuu! 🪻",
     grandTitle: "HAPPY BIRTHDAY, MERO DIDUUUU! 🎂💜",
     subWish: "Sadhai khusi rahanu hos, Mero Pyari Diduuu! 💜",
-    psNote: "P.S. Hajurko sano gift pani baki cha haiii! 🎁😂💜",
+    psNote: "P.S. Hajurko sano gift pani baki xa haiii! 🎁😂💜",
     hugButton: "Send Birthday Cheer 🎉",
     hugSuccessMessage: "Birthday cheer sent your way! 🎉💜 Hajur jasto kind ra ramailo didi paunu mero lagi ekdam khusi ko kura ho! Sadhai khusi ra safal hunuhos! 🥹🪻"
   },
