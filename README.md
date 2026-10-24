@@ -16,10 +16,10 @@ A cheerful, dreamy purple scrapbook birthday surprise website made to celebrate 
   - Illustrated layered birthday cake with flickering candle flames.
   - Interactive candle blowing: click or tap the candles to extinguish them, trigger smoke puffs & confetti, and make a wish!
   - Spotlight polaroid frame with pinned memo: *"Kind • Funny • Beautiful • Chosen by Heart • My Diduuu ♡"*.
-- **Section C: Memories Scrapbook Gallery (28 Photos)**:
+- **Section C: Memories Scrapbook Gallery (31 Photos)**:
   - Filter tabs: *All Memories 📸*, *Naughty Kid Days 🐣*, *Growing Beautiful 🌷*, *Bond of Hearts 🫶🏻*.
   - Realistic tilted polaroid cards with washi tape, stickers, and captions.
-  - **Modern Accessible Lightbox** (Native `<dialog closedby="any">` with light-dismiss, keyboard navigation, and live photo counter `1 / 28`).
+  - **Modern Accessible Lightbox** (Native `<dialog closedby="any">` with light-dismiss, keyboard navigation, and live photo counter `1 / 31`).
 - **Section D: Personal Birthday Letter**:
   - Realistic stationery parchment card with a delicate pink ribbon bow.
   - Heartfelt Nepali letter celebrating your unique bond: *"Blood ko nata bhanda mutu ko nata dherai thulo huncha... 🫶🏻🌸"*
