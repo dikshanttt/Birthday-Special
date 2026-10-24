@@ -9,7 +9,7 @@ export const siteConfig = {
   // Recipient details
   nickname: "Diduuu",
   fullName: "Sakshi",
-  relationship: "Mero Mutu • My Dearest Sister & Best Friend Forever",
+  relationship: "My Wonderful Sister & Best Friend",
   
   // Navigation
   navLinks: [
@@ -26,7 +26,7 @@ export const siteConfig = {
     greeting: "Someone very special has a birthday today… ♡",
     subGreeting: "(and that's you, Diduuu!) 🥹💜",
     ctaButton: "🎁 Open Your Surprise",
-    handwrittenNote: "A little surprise for my Diduuu — with lots of love ♡",
+    handwrittenNote: "A little birthday surprise for my amazing Diduuu ♡",
     unbiologicalNote: "To the sweetest, most amazing sister 🪻"
   },
 
@@ -34,7 +34,7 @@ export const siteConfig = {
   celebration: {
     crown: "👑",
     title: "Happy Birthday, Mero Diduuu! 🎂💜",
-    subtitle: "May your day be as bright and beautiful as your heart! 🪻",
+    subtitle: "May your day be as bright and beautiful as you are! 🪻",
     pillButton: "Keep being you 💜",
     cakeCaption: "Click the candles to blow them out and make a wish! ✨",
     wishGrantedMessage: "✨ Make a wish, Diduuu! May every single dream of yours come true this year! 🎂🎉",
@@ -46,7 +46,7 @@ export const siteConfig = {
         "Kind 🌷",
         "Funny 😂",
         "Beautiful 🪻",
-        "Chosen by Heart 💜",
+        "Talented & Kind 💜",
         "My Diduuu 💜"
       ]
     }
@@ -60,7 +60,7 @@ export const siteConfig = {
       { id: "all", label: "All Memories 📸" },
       { id: "childhood", label: "Naughty Kid Days 🐣" },
       { id: "recent", label: "Growing Beautiful 🌷" },
-      { id: "bond", label: "Bond of Hearts 🫶🏻" }
+      { id: "bond", label: "Sibling Moments 🫶🏻" }
     ],
     items: [
       {
@@ -117,7 +117,7 @@ export const siteConfig = {
         id: 6,
         src: "./images/memories/6.jpeg",
         title: "The Sibling Bond",
-        caption: "No matter how much we tease, you're always my protector 🫂💗",
+        caption: "No matter how much we tease, you're always looking out for me 🫂💗",
         category: "childhood",
         rotation: 1.5,
         tape: "lavender",
@@ -217,7 +217,7 @@ export const siteConfig = {
         id: 16,
         src: "./images/memories/16.jpeg",
         title: "My Favourite Person",
-        caption: "Forever grateful to have you as my sister 🫶🏻🌷",
+        caption: "So lucky to have a funny, kind sister like you 🫶🏻🌷",
         category: "recent",
         rotation: -1.9,
         tape: "violet",
@@ -256,8 +256,8 @@ export const siteConfig = {
       {
         id: 20,
         src: "./images/memories/21.jpg",
-        title: "Bond of Pure Love",
-        caption: "A bond chosen by destiny and sealed with endless care 🫶🏻💖",
+        title: "Amazing Sister",
+        caption: "Your kindness and cheerful spirit make every day brighter 🫶🏻💖",
         category: "bond",
         rotation: -1.7,
         tape: "purple",
@@ -307,7 +307,7 @@ export const siteConfig = {
         id: 25,
         src: "./images/memories/26.jpg",
         title: "Timeless Smile",
-        caption: "Sadhai sabai ko pyari, sadhai hamro mutu ko didi 🌷❤️",
+        caption: "Sadhai sabai ko pyari, sabailai khusi banaune didi 🌷❤️",
         category: "recent",
         rotation: 2.3,
         tape: "lilac",
@@ -336,8 +336,8 @@ export const siteConfig = {
       {
         id: 28,
         src: "./images/memories/29.jpg",
-        title: "Heart to Heart",
-        caption: "Sadhai mero mutu ko najik hunuhuncha hajur 🫶🏻🌷",
+        title: "Always Appreciated",
+        caption: "Hajurko ramailo bani le sabailai khusi banauncha 🫶🏻🌷",
         category: "bond",
         rotation: -1.8,
         tape: "purple",
@@ -381,14 +381,14 @@ export const siteConfig = {
     sectionHeading: "A Little Letter for You... 💌",
     salutation: "Happy Birthday, Mero Diduuu! 💜",
     paragraphs: [
-      "Kaash yrrr aaja hajur sanga bhayera yo special day celebrate garna paauthe! 🥹💜 Dashain vayera ma bhetna napaye pani, hajur sadhai mero mutu ko najik hunu hunxa.",
-      "Hajur mero lagi ekdam special hunuhunxa! Hajur sanga ko yo pyaro nata sadhai mero mutu ma rahi rahanexa. 🫶🏻🪻💜",
-      "Hajurko life sadhai khusi, maya ra ramra moments le bharipurna hos. Hajurka sabai sapana pura hun, ani hajur sadhai yestai hasirakhnu haiii! 🌷💫",
-      "Chittai bhetera sangai ramailo garnu parxa. Teti bela samma ko lagi, yo sano card ma mero dherai saaro maya! 🫂💜",
-      "Dherai maya, Diduuu! 🎂💋"
+      "Kaash yrrr aaja hajur sanga bhayera yo special day celebrate garna paauthe! 🥹💜 Dashain vayera bhetauna napaye pani, hajurko birthday ramailo hos haiii!",
+      "Hajur ekdam kind, funny ra talented hunuhuncha! Hajur jasto ramro didi paunu mero lagi khusi ko kura ho. 🫶🏻🪻💜",
+      "Hajurko life sadhai khusi, safalta ra ramra moments le bharipurna hos. Hajurka sabai sapana pura hun, ani hajur sadhai yestai hasirakhnu haiii! 🌷💫",
+      "Chittai bhetera sangai ramailo garnu parxa hai! Teti bela samma ko lagi, yo sano birthday card ra dherai shubhakamana! 🎂💜",
+      "Janmadinko dherai dherai shubhakamana, Diduuu! 🎂🎉"
     ],
     closing: "— Hajurko sano bhai💜",
-    stickyTag: "Lopp Uhh 💜",
+    stickyTag: "Best Didi 💜",
     sidePolaroid: {
       image: "./images/memories/11.jpeg",
       caption: "Keep smiling always! 💜"
@@ -397,14 +397,14 @@ export const siteConfig = {
 
   // Section E: Final Sunset Surprise
   surprise: {
-    quote1: "Jindagiko harek modma pani, hajurko birthday sadhai mero lagi ekdam special cha! 💜🎂 Hajurko yo naya barsa khusi, maya ra aashish le bharipurna hos. 💖✨",
-    quote2: "Aaja bhetna napaye pani, hajur sadhai mero mutu ko najik hunuhunxa! 🥹🫂",
+    quote1: "Hajurko janmadin dherai ramailo hos! 💜🎂 Hajurko yo naya barsa khusi, safalta ra sundar palharu le bharipurna hos. 💖✨",
+    quote2: "Aaja sangai celebrate garna napaye pani, hajurko din ekdam special ra ramailo hos! 🥹🎉",
     quote3: "Chittai bhetera dherai ramailo garnuparxa haiii, Diduuu! 🪻",
     grandTitle: "HAPPY BIRTHDAY, MERO DIDUUUU! 🎂💜",
     subWish: "Sadhai khusi rahanu hos, Mero Pyari Diduuu! 💜",
     psNote: "P.S. Hajurko sano gift pani baki cha haiii! 🎁😂💜",
-    hugButton: "Send You One More Hug 🫂",
-    hugSuccessMessage: "A giant warm brotherly hug has been sent straight to your heart! 🫂💜 Hajur jasto pyari didi paunu mero thulo bhagya ho! Love you always! 🥹🪻"
+    hugButton: "Send Birthday Cheer 🎉",
+    hugSuccessMessage: "Birthday cheer sent your way! 🎉💜 Hajur jasto kind ra ramailo didi paunu mero lagi ekdam khusi ko kura ho! Sadhai khusi ra safal hunuhos! 🥹🪻"
   },
 
   // Audio settings
