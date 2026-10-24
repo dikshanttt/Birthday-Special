@@ -379,6 +379,7 @@ export const siteConfig = {
   // Section D: Personal Birthday Letter
   letter: {
     sectionHeading: "A Little Letter for You... 💌",
+    subtitle: "A few birthday wishes just for you 🌷",
     salutation: "Happy Birthday, Mero Diduuu! 💜",
     paragraphs: [
       "Kaash yrrr aaja hajur sanga bhayera yo special day celebrate garna paauthe! 🥹💜 Dashain vayera bhetauna napaye pani, hajurko birthday ramailo hos haiii!",

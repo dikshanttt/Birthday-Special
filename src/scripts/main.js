@@ -8,6 +8,7 @@ import { soundController } from './audio.js';
 import { svgs } from './svgs.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+  initConfiguredContent();
   initDecorations();
   initWelcomeSection();
   initCelebrationSection();
@@ -18,6 +19,59 @@ document.addEventListener('DOMContentLoaded', () => {
   initMusicToggle();
   initFloatingParticles();
 });
+
+function initConfiguredContent() {
+  const setText = (id, value) => {
+    const element = document.getElementById(id);
+    if (element && value !== undefined) element.textContent = value;
+  };
+
+  setText('welcomeBadge', siteConfig.welcome.badge);
+  setText('welcomeGreeting', siteConfig.welcome.greeting.replace(/\s*♡\s*$/, ''));
+  setText('welcomeSubGreeting', siteConfig.welcome.subGreeting);
+  setText('welcomeHandwrittenNote', siteConfig.welcome.handwrittenNote);
+  setText('welcomeUnbiologicalNote', siteConfig.welcome.unbiologicalNote);
+  setText('btnOpenSurprise', siteConfig.welcome.ctaButton);
+
+  setText('celebrationTitle', siteConfig.celebration.title);
+  setText('celebrationSubtitle', siteConfig.celebration.subtitle);
+  setText('btnCelebrationPill', siteConfig.celebration.pillButton);
+  setText('candlePromptCopy', siteConfig.celebration.cakeCaption);
+  setText('showcaseCaption', siteConfig.celebration.showcaseCard.caption);
+  const showcaseImage = document.getElementById('showcaseImage');
+  if (showcaseImage) showcaseImage.src = siteConfig.celebration.showcaseCard.image;
+
+  const stickyList = document.querySelector('.sticky-list');
+  if (stickyList) {
+    stickyList.replaceChildren(...siteConfig.celebration.showcaseCard.stickyNote.map(note => {
+      const item = document.createElement('li');
+      item.textContent = `• ${note}`;
+      return item;
+    }));
+  }
+
+  setText('memoriesTitle', siteConfig.memoriesSection.title);
+  setText('memoriesSubtitle', siteConfig.memoriesSection.subtitle);
+  document.querySelectorAll('.filter-btn').forEach(button => {
+    const category = siteConfig.memoriesSection.categories.find(item => item.id === button.dataset.category);
+    if (category) button.textContent = category.label;
+  });
+
+  setText('letterTitle', siteConfig.letter.sectionHeading);
+  setText('letterSubtitle', siteConfig.letter.subtitle);
+  setText('letterStickyTag', siteConfig.letter.stickyTag);
+  const letterSideImage = document.getElementById('letterSideImage');
+  if (letterSideImage) letterSideImage.src = siteConfig.letter.sidePolaroid.image;
+  setText('letterSideCaption', siteConfig.letter.sidePolaroid.caption);
+
+  setText('surpriseQuote1', siteConfig.surprise.quote1);
+  setText('surpriseQuote2', siteConfig.surprise.quote2);
+  setText('surpriseQuote3', siteConfig.surprise.quote3);
+  setText('surpriseTitle', siteConfig.surprise.grandTitle);
+  setText('surpriseSubWish', siteConfig.surprise.subWish);
+  setText('surprisePsNote', siteConfig.surprise.psNote);
+  setText('btnSendHug', siteConfig.surprise.hugButton);
+}
 
 // -----------------------------------------------------------------------------
 // 1. Decorative Vectors & SVGs Injection
@@ -88,7 +142,7 @@ function initWelcomeSection() {
 // -----------------------------------------------------------------------------
 function initCelebrationSection() {
   const cakeStage = document.getElementById('celebrationCakeSlot');
-  const candlePromptText = document.getElementById('candlePromptText');
+  const candlePromptCopy = document.getElementById('candlePromptCopy');
   const pillActionBtn = document.getElementById('btnCelebrationPill');
 
   let candlesBlown = false;
@@ -108,8 +162,8 @@ function initCelebrationSection() {
         colors: ['#c084fc', '#a855f7', '#8b5cf6', '#d8b4fe', '#fef08a', '#ffffff']
       });
 
-      if (candlePromptText) {
-        candlePromptText.innerHTML = `✨ Wish made! May all your dreams come true, Diduuu! 🎂🎉`;
+      if (candlePromptCopy) {
+        candlePromptCopy.textContent = siteConfig.celebration.wishGrantedMessage;
       }
 
       // Add temporary smoke puffs
@@ -123,8 +177,8 @@ function initCelebrationSection() {
     } else {
       cakeStage.classList.remove('candles-blown');
       soundController.playPop();
-      if (candlePromptText) {
-        candlePromptText.innerHTML = siteConfig.celebration.cakeCaption;
+      if (candlePromptCopy) {
+        candlePromptCopy.textContent = siteConfig.celebration.cakeCaption;
       }
     }
   };

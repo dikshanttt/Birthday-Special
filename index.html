@@ -36,15 +36,15 @@
     <section id="welcome" class="section-wrapper" aria-labelledby="welcomeHeading">
       <div class="content-container welcome-grid">
         <div class="welcome-text-col">
-          <div class="special-badge">
+          <div class="special-badge" id="welcomeBadge">
             <span>✨</span> Mero Pyari Diduuu • Best Sister Forever 💜
           </div>
 
           <h1 id="welcomeHeading" class="welcome-headline">
-            Someone very special has a birthday today… <span class="highlight-heart">♡</span>
+            <span id="welcomeGreeting">Someone very special has a birthday today…</span> <span class="highlight-heart">♡</span>
           </h1>
 
-          <p class="welcome-subtext">
+          <p class="welcome-subtext" id="welcomeSubGreeting">
             (and that's you, Diduuu!) 🥹❤️
           </p>
 
@@ -54,9 +54,8 @@
             </button>
 
             <aside class="handwritten-aside">
-              A little surprise for my Diduuu<br />
-              — with birthday wishes ♡<br />
-              <small style="opacity: 0.85; font-size: 1.15rem;">To the sweetest, most amazing sister 🌷</small>
+              <span id="welcomeHandwrittenNote">A little birthday surprise for my amazing Diduuu</span><br />
+              <small id="welcomeUnbiologicalNote" style="opacity: 0.85; font-size: 1.15rem;">To the sweetest, most amazing sister 🌷</small>
             </aside>
           </div>
         </div>
@@ -81,7 +80,7 @@
         <div class="section-header">
           <div class="crown-badge" aria-hidden="true">👑</div>
           <h2 id="celebrationTitle" class="section-title">Happy Birthday, Mero Diduuu! 🎂💜</h2>
-          <p class="section-subtitle">May your day be as bright and beautiful as you are! 🌷</p>
+          <p class="section-subtitle" id="celebrationSubtitle">May your day be as bright and beautiful as you are! 🌷</p>
         </div>
 
         <div class="celebration-grid">
@@ -92,7 +91,7 @@
             </div>
 
             <div class="candle-prompt" id="candlePromptText">
-              <span>🎂</span> Click the candles to blow them out & make a wish! ✨
+              <span>🎂</span> <span id="candlePromptCopy">Click the candles to blow them out and make a wish! ✨</span>
             </div>
 
             <button class="btn-pill-action" id="btnCelebrationPill">
@@ -107,9 +106,9 @@
               <div class="showcase-polaroid">
                 <div class="washi-tape washi-tape-purple" aria-hidden="true"></div>
                 <div class="showcase-img-wrap">
-                  <img src="./images/memories/17.jpeg" alt="My Beautiful Diduuu" loading="lazy" />
+                  <img id="showcaseImage" src="./images/memories/17.jpeg" alt="My Beautiful Diduuu" loading="lazy" />
                 </div>
-                <p class="showcase-caption">You deserve all the happiness in the world 💜</p>
+                <p class="showcase-caption" id="showcaseCaption">You deserve all the happiness in the world 💜</p>
               </div>
 
               <!-- Pinned Sticky Memo Note -->
@@ -139,7 +138,7 @@
       <div class="content-container">
         <div class="section-header">
           <h2 id="memoriesTitle" class="section-title">Little Moments of My Favourite Diduuu 💜</h2>
-          <p class="section-subtitle">From a naughty little kid to the amazing, wonderful soul you are today! 😂❤️</p>
+          <p class="section-subtitle" id="memoriesSubtitle">From a naughty little kid to the amazing, wonderful soul you are today! 😂❤️</p>
         </div>
 
         <!-- Scrapbook Category Filter Buttons -->
@@ -164,7 +163,7 @@
       <div class="content-container">
         <div class="section-header">
           <h2 id="letterTitle" class="section-title">A Little Letter for You... 💌</h2>
-          <p class="section-subtitle">A few birthday wishes just for you 🌷</p>
+          <p class="section-subtitle" id="letterSubtitle">A few birthday wishes just for you 🌷</p>
         </div>
 
         <div class="letter-layout">
@@ -185,7 +184,7 @@
 
             <!-- Pinned Heart Sticker Tag -->
             <div class="letter-sticky-heart" aria-hidden="true">
-              <span>Best Didi</span>
+              <span id="letterStickyTag">Best Didi 💜</span>
               <span>Diduu💜</span>
             </div>
           </article>
@@ -195,9 +194,9 @@
             <div class="letter-polaroid-side">
               <div class="washi-tape washi-tape-lavender" aria-hidden="true"></div>
               <div class="side-img-wrap">
-                <img src="./images/memories/11.jpeg" alt="Keep smiling always" loading="lazy" />
+                <img id="letterSideImage" src="./images/memories/11.jpeg" alt="Keep smiling always" loading="lazy" />
               </div>
-              <p class="side-polaroid-caption">Keep smiling always! 💜</p>
+              <p class="side-polaroid-caption" id="letterSideCaption">Keep smiling always! 💜</p>
             </div>
           </div>
         </div>
@@ -212,13 +211,13 @@
 
       <div class="content-container sunset-content">
         <div class="sunset-message-box">
-          <p class="sunset-quote">
+          <p class="sunset-quote" id="surpriseQuote1">
             Hajurko janmadin dherai ramailo hos! Hajurko yo naya barsa khusi, safalta ra sundar palharu le bharipurna hos! 💜🎂
           </p>
-          <p class="sunset-quote">
+          <p class="sunset-quote" id="surpriseQuote2">
             Aaja sangai celebrate garna napaye pani, hajurko din ekdam special ra ramailo hos! 🥹🎉
           </p>
-          <p class="sunset-quote">
+          <p class="sunset-quote" id="surpriseQuote3">
             Chittai bhetera dherai ramailo garnuparcha haiii, Diduuu! 🪻
           </p>
 
@@ -226,7 +225,7 @@
             HAPPY BIRTHDAY, MERO DIDUUUU! 🎂💜
           </h2>
 
-          <p class="sunset-subwish">
+          <p class="sunset-subwish" id="surpriseSubWish">
             Sadhai khusi rahanu hos, Mero Pyari Diduuu! 💜
           </p>
         </div>
@@ -236,7 +235,7 @@
           <!-- Injected SVG Gift Box -->
         </button>
 
-        <div class="ps-playful-note">
+        <div class="ps-playful-note" id="surprisePsNote">
           P.S. Hajurko sano gift pani baki cha haiii! 🎁😂💜
         </div>
 
